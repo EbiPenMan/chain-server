@@ -1,0 +1,11 @@
+[
+  {
+    "address" : "",
+    "tokens" : ["BSC","USDT"],
+    "chainId": "MAINNET",
+    "dex" : "uniswap_2"
+  }
+
+
+
+]
