@@ -396,3 +396,9 @@ Temporary Items
 # Local
 .env
 dist
+
+
+# HardHat
+coverage.json
+typechain
+typechain-types
