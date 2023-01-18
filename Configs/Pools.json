@@ -1,7 +1,10 @@
 [
   {
-    "address" : "",
-    "tokens" : ["BSC","USDT"],
+    "address" : "0xfcc860289819c8b754ef31a1709a7952EB940223",
+    "tokens" : ["Cake","ARENA"],
+    "token0_address" : "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+    "token1_address" : "0xCfFD4D3B517b77BE32C76DA768634dE6C738889B",
+    "blockchain" : "BSC",
     "chainId": "MAINNET",
     "dex" : "uniswap_2"
   }
