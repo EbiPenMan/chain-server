@@ -15,7 +15,7 @@ import { NodesApiModule } from "../nodes/nodes-api.module";
     NodesApiModule,
     TypeOrmModule.forRoot({
       type: 'sqlite',
-      database: 'db',
+      database: './database/db.sqlite3',
       entities: [__dirname + '/../**/*.entity{.ts,.js}'],
       synchronize: true,
     }),

@@ -28,4 +28,8 @@ export class PoolsService {
   
   }
   
+  public getAndUpdateReserves(): { reserve0: string, reserve1: string, blockTimestampLast: number } | any {
+    return null;
+  }
+  
 }

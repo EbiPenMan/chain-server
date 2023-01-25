@@ -30,12 +30,24 @@ export class Pool {
   @ApiProperty({ example: "0x55d398326f99059ff775485246999027b3197955" })
   token1Address: string;
   
+  @Column({ type: "varchar", name: "reserve0"})
+  @ApiProperty({ example: "40346855030541299449933" })
+  reserve0: string;
+  
+  @Column({ type: "varchar", name: "reserve1"})
+  @ApiProperty({ example: "40346855030541299449933" })
+  reserve1: string;
+  
+  @Column({ name: "blockTimestampLast"})
+  @ApiProperty({ example: "40346855030541299449933" })
+  blockTimestampLast: number
+  
+  @Column({  name: "updatedAt"})
+  @ApiProperty({ example: "40346855030541299449933" })
+  updatedAt: number;
+  
   @Column({ type: "varchar", name: "interfaceType"})
   @ApiProperty({ example: "uniswap_v2" })
   interfaceType: string;
-  
-  public getReserves(): { reserve0: string, reserve1: string, blockTimestampLast: number } | any {
-    return null;
-  }
   
 }
