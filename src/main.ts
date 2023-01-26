@@ -30,5 +30,9 @@ async function bootstrap() {
   SwaggerModule.setup('api', app, document,customOptions);
   
   await app.listen(3000, '0.0.0.0');
+  
+  console.log("Open http://localhost:3000/api for swagger api");
+  
+  
 }
 bootstrap();
